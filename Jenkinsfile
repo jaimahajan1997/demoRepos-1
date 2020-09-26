@@ -4,6 +4,6 @@ git 'https://github.com/jaimahajan1997/demoRepos-1'
 
 }
 stage('Compile Package'){
-sh 'mvn package'
+bat 'mvn package'
 }
 }
